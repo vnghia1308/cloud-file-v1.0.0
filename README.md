@@ -19,5 +19,7 @@ Admin:
 
 -- Tác giả: Vy Nghĩa (Nghia is Gay)<br>
 -- Fanpage: https://www.facebook.com/NghiaisGay<br>
+
 ---
+
 (c) 2017 Vy Nghia
