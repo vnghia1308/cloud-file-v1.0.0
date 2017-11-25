@@ -160,7 +160,7 @@ case 'upload': ?>
 		<div id="upload-progress" style="display: none">
 			<span id="progressbar-text">Tiến trình tải lên đang bắt đầu:</span><br />
 			<div style="width: 0%" aria-valuemax="100" aria-valuemin="0" aria-valuenow="0" role="progressbar" class="progress-bar"></div><hr />
-			<button style="float: right" id="stop-upload" class="btn btn-primary" type="button">Hủy tải xuống</button>
+			<button style="float: right" id="stop-upload" class="btn btn-primary" type="button">Hủy tải lên</button>
 			<div style="clear: both;"></div>
 		</div>
 
