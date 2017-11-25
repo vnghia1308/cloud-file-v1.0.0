@@ -2,8 +2,6 @@
 /* >_ Developed by Vy Nghia */
 require 'server/config.php';
 session_start();
-$web = new Website;
-$_SESSION['code'] = $web->code(10);
 ?>
 <!DOCTYPE html>
 <html>
@@ -104,41 +102,7 @@ textarea {
 <script src="assets/js/bootstrap-wysihtml5.js?v=1509569870"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/6.6.4/sweetalert2.min.js"></script>
 <script>
-$("#post").on('submit',(function(e) {
-	e.preventDefault();
-	if($('textarea').val() == ''){
-		swal("Không thể thực hiện!", "Bạn chưa nhập nội dung bài viết!", "error")
-	} else {
-		$.ajax({
-			url: 'send.php?action=post',
-			type: "POST",
-			data:  new FormData(this),
-			contentType: false,
-			cache: false,
-			processData:false,
-			beforeSend: function () {
-				$('#postSubmit').text('Đang xử lý...').prop('disabled', true)
-			},
-			success: function(data) {
-			if(data !== false){
-					$('#post-success').show()
-					$('#postSubmit').text('Đăng bài viết').prop('disabled', false)
-					$('textarea').val(null)
-					setTimeout(function(){ 
-						$('#post-success').hide()
-					}, 3000);
-					console.log(data);
-				} else {
-					console.log('null');
-				}
-			},
-			error: function(){
-				swal("Đã xảy ra lỗi!", "Đã xảy ra lỗi cục bộ, vui lòng thử lại!", "error")
-				$('#postSubmit').text('Đăng bài viết').prop('disabled', false)
-			}
-	   });
-	}
-}));
+/* JAVASCRIPT HERE */
 </script>
 </body>
 </html>
