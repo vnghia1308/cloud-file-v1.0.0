@@ -5,7 +5,7 @@ Cloud File v1.0.0 - giúp bạn xây dựng 1 hệ thống Cloud Server cơ bả
 - Vào http://domain.com/install để config lại thôi :3<br>
 
 *Nếu database không tự động nạp thì các bạn vào server/lib/data/mysql/raw để lấy file database.sql (file sql thủ công) để import vào mysql nhé!<br>
-*Các bạn xài cPanel chú ý: lỗi trên trên không phải do code, có thể bạn chưa cài đặt full quyền<br>
+*Các bạn xài cPanel chú ý: lỗi ở trên không phải do code, có thể bạn chưa cài đặt full quyền<br>
 <br>
 Admin Page: http://domain.com/admin<br>
 <br>
