@@ -1,6 +1,4 @@
 # cloud-file-v1.0.0
-Cloud Server cơ bản
-
 Cloud File v1.0.0 - giúp bạn xây dựng 1 hệ thống Cloud Server cơ bản (chia sẻ file). :D
 
 [Hướng dẫn]
