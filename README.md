@@ -13,7 +13,7 @@ Admin Page: http://domain.com/admin<br>
 Install: nghiametrai<br>
 Admin:
 - Tài khoản: admin<br>
-- Mật khẩu: nghiametrai<br>
+- Mật khẩu: vynghia@1308<br>
 
 -- Tác giả: Vy Nghĩa (Nghia is Gay)<br>
 -- Fanpage: https://www.facebook.com/NghiaisGay<br>
