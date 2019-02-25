@@ -22,7 +22,7 @@ switch($_GET['login']){
 	case 'install':
 	if($_POST['password'] !== ''){
 		/* PASSWORD INSTALL PAGE */
-		define('PASSWORD', 'nghiametrai');
+		define('PASSWORD', 'vnghia@1308');
 		
 		if($_POST['password'] == PASSWORD){
 			echo ('success');
